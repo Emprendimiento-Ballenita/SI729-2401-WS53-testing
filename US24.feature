@@ -7,6 +7,6 @@ Feature: US24: Ver historial de turistas atendidos
 
    Scenario: Ver detalle de servicio brindado por turista
         Given el guía necesita revisar con detalle el servicio brindado a un turista en específico
-        When  ingrese a uno de los turistas aparecidos en el historial de turistas
+        When ingrese a uno de los turistas aparecidos en el historial de turistas
         Then el guía podrá revisar a detalle la información del servicio a dicho turista
 
